@@ -1,0 +1,55 @@
+/* src/styles/global.css */
+:root {
+  --bleu-nuit: #2e4053;
+  --creme: #fdf6e3;
+  --ocre: #8b4513;
+  --or: #d4a017;
+  --or-fonce: #8a6400;
+  --noir: #111111;
+  --font-titre: Georgia, serif;
+  --font-texte: system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-texte);
+  color: var(--noir);
+  background: var(--creme);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-titre);
+  color: var(--bleu-nuit);
+}
+
+a { color: var(--bleu-nuit); }
+a:hover { color: var(--or-fonce); }
+
+:focus-visible {
+  outline: 3px solid var(--or-fonce);
+  outline-offset: 3px;
+}
+
+header {
+  background: var(--bleu-nuit);
+  color: var(--creme);
+  padding: 1rem 2rem;
+}
+
+header a { color: var(--creme); text-decoration: none; margin-right: 1rem; }
+header a:hover { color: var(--or); }
+
+nav { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 0.5rem; }
+
+main { max-width: 60rem; margin: 0 auto; padding: 2rem; min-height: 60vh; }
+
+footer {
+  background: var(--bleu-nuit);
+  color: var(--creme);
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
