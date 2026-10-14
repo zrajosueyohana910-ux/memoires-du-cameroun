@@ -1,0 +1,168 @@
+/* Onglets */
+.onglets {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #e0d5c0;
+  padding-bottom: 0;
+}
+
+.onglet {
+  padding: 0.75rem 1.5rem;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  font-family: var(--font-texte);
+  font-size: 1rem;
+  font-weight: 600;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: -2px;
+}
+
+.onglet:hover {
+  color: var(--bleu-nuit);
+}
+
+.onglet--actif {
+  color: var(--bleu-nuit);
+  border-bottom-color: var(--or);
+}
+
+.onglet-contenu {
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Filtre simple */
+.filtre-simple {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.filtre-simple label {
+  font-weight: 600;
+  color: var(--bleu-nuit);
+  font-size: 0.95rem;
+}
+
+.filtre-simple select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+  font-family: var(--font-texte);
+  font-size: 1rem;
+  background: #fff;
+  min-width: 12rem;
+}
+
+/* Liste de fiches */
+.liste-fiches {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .liste-fiches {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.fiche-liste {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.fiche-liste:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.fiche-liste__lien {
+  display: block;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: var(--noir);
+}
+
+.fiche-liste__entete {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.fiche-liste__badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  background: var(--or-fonce);
+  color: var(--creme);
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.fiche-liste__gratuit {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  background: #e8f5e9;
+  color: #2e7d32;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.fiche-liste__titre {
+  font-family: var(--font-titre);
+  font-size: 1.3rem;
+  color: var(--bleu-nuit);
+  margin: 0 0 0.5rem;
+  line-height: 1.2;
+}
+
+.fiche-liste__resume {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0 0 0.5rem;
+}
+
+.fiche-liste__meta {
+  font-size: 0.85rem;
+  color: #888;
+  margin: 0;
+}
+
+.fiche-liste__externe {
+  color: var(--or-fonce);
+  font-weight: 600;
+}
+
+/* Domaine pour les acteurs */
+.fiche-liste__domaine {
+  font-size: 0.8rem;
+  color: #888;
+  font-style: italic;
+}

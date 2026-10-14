@@ -1,0 +1,77 @@
+[
+  {
+    "id": "diy-gid-biy",
+    "titre": "Diy-Gid-Biy",
+    "region": "Extrême-Nord",
+    "categorie": "matériel",
+    "niveau": "débutant",
+    "description": "Ensemble de vestiges en pierre sèche, inscrit au patrimoine mondial de l'UNESCO en juillet 2025. Ces constructions témoignent d'une organisation sociale complexe dans les Monts Mandara.",
+    "image": "/images/placeholder.svg",
+    "alt": "Vestiges en pierre sèche de Diy-Gid-Biy dans les Monts Mandara",
+    "credit": "TEST — crédit à compléter",
+    "licence": "CC BY-SA 4.0",
+    "mise_en_avant": true,
+    "sources": [
+      {
+        "titre": "UNESCO — Patrimoine mondial : Diy-Gid-Biy",
+        "url": "https://whc.unesco.org/",
+        "consulte": "2026-10-13"
+      },
+      {
+        "titre": "Wikipédia — Diy-Gid-Biy",
+        "url": "https://fr.wikipedia.org/wiki/Diy-Gid-Biy",
+        "consulte": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "contes-goggo-addi",
+    "titre": "Contes de Goggo Addi",
+    "region": "Nord",
+    "categorie": "immatériel",
+    "niveau": "débutant",
+    "description": "Recueil de contes de la conteuse peule Goggo Addi, enregistrés et transcrits par Ursula Baumgardt entre 1985 et 1989. Une archive sonore majeure pour la littérature orale fulfulde.",
+    "image": "/images/placeholder.svg",
+    "alt": "Représentation d'une conteuse traditionnelle",
+    "credit": "TEST — crédit à compléter",
+    "licence": "CC BY-SA 4.0",
+    "mise_en_avant": true,
+    "sources": [
+      {
+        "titre": "INALCO — Fonds Goggo Addi",
+        "url": "https://www.inalco.fr/",
+        "consulte": "2026-10-13"
+      },
+      {
+        "titre": "Wikipédia — Goggo Addi",
+        "url": "https://fr.wikipedia.org/wiki/Goggo_Addi",
+        "consulte": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "lamidat-de-garoua",
+    "titre": "Lamidat de Garoua",
+    "region": "Nord",
+    "categorie": "matériel",
+    "niveau": "intermédiaire",
+    "description": "Chefferie traditionnelle peule de Garoua, symbole de l'organisation politique et sociale du Nord-Cameroun. Le lamidat reste aujourd'hui une institution centrale de la région.",
+    "image": "/images/placeholder.svg",
+    "alt": "Vue du Lamidat de Garoua",
+    "credit": "TEST — crédit à compléter",
+    "licence": "CC BY-SA 4.0",
+    "mise_en_avant": true,
+    "sources": [
+      {
+        "titre": "Ministère des Arts et de la Culture du Cameroun",
+        "url": "https://www.minculture.gov.cm/",
+        "consulte": "2026-10-13"
+      },
+      {
+        "titre": "Wikipédia — Lamidat de Garoua",
+        "url": "https://fr.wikipedia.org/wiki/Lamidat_de_Garoua",
+        "consulte": "2026-10-13"
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "wikidata",
+    "nom": "Wikidata",
+    "type": "base-donnees",
+    "lien": "https://www.wikidata.org/",
+    "langue": "multilingue",
+    "gratuit": true,
+    "description": "Base de connaissances libre et structurée, connectée à Wikipédia. Utile pour les alignements d'entités."
+  },
+  {
+    "id": "wikimedia-commons",
+    "nom": "Wikimedia Commons",
+    "type": "mediatheque",
+    "lien": "https://commons.wikimedia.org/",
+    "langue": "multilingue",
+    "gratuit": true,
+    "description": "Médiathèque libre contenant des millions d'images, sons et vidéos sous licence libre."
+  },
+  {
+    "id": "unesco-ich",
+    "nom": "UNESCO — Patrimoine immatériel",
+    "type": "base-donnees",
+    "lien": "https://ich.unesco.org/",
+    "langue": "multilingue",
+    "gratuit": true,
+    "description": "Base officielle du patrimoine culturel immatériel de l'UNESCO, avec fiches détaillées par pays."
+  },
+  {
+    "id": "huma-num",
+    "nom": "Huma-Num",
+    "type": "infrastructure",
+    "lien": "https://www.huma-num.fr/",
+    "langue": "fr",
+    "gratuit": true,
+    "description": "Infrastructure française de recherche en humanités numériques, avec des outils et services pour les chercheurs."
+  },
+  {
+    "id": "openedition",
+    "nom": "OpenEdition",
+    "type": "publications",
+    "lien": "https://www.openedition.org/",
+    "langue": "fr",
+    "gratuit": false,
+    "description": "Portail de publications scientifiques en sciences humaines et sociales, avec accès partiel gratuit."
+  },
+  {
+    "id": "geonames",
+    "nom": "GeoNames",
+    "type": "base-donnees",
+    "lien": "https://www.geonames.org/",
+    "langue": "en",
+    "gratuit": true,
+    "description": "Base de données géographiques libre, utile pour aligner des lieux (villes, montagnes)."
+  }
+]

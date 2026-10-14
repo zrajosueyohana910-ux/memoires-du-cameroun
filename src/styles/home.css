@@ -1,0 +1,332 @@
+/* ==================== HERO ==================== */
+.hero {
+  background: var(--bleu-nuit);
+  color: var(--creme);
+  padding: 4rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin: -2rem -2rem 3rem;
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    grid-template-columns: 2fr 1fr;
+    padding: 5rem 4rem;
+  }
+}
+
+.hero__surtitre {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--or);
+  margin: 0 0 1.5rem;
+}
+
+.hero__titre {
+  font-family: var(--font-titre);
+  font-size: 3rem;
+  line-height: 1.1;
+  color: var(--creme);
+  margin: 0 0 1.5rem;
+}
+
+.hero__titre em {
+  color: var(--or);
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .hero__titre {
+    font-size: 2rem;
+  }
+}
+
+.hero__description {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin: 0 0 2rem;
+  color: rgba(253, 246, 227, 0.9);
+  max-width: 40rem;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.hero__btn-clair {
+  color: var(--creme);
+  border-color: var(--creme);
+}
+
+.hero__btn-clair:hover {
+  background: var(--creme);
+  color: var(--bleu-nuit);
+}
+
+.hero__aside {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.hero__badge {
+  background: var(--or);
+  color: var(--noir);
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero__badge-titre {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hero__badge-sous {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hero__compteur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  backdrop-filter: blur(4px);
+}
+
+.hero__compteur-nombre {
+  font-family: var(--font-titre);
+  font-size: 3rem;
+  color: var(--or);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.hero__compteur-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 0.5rem;
+}
+
+.hero__credit {
+  font-size: 0.75rem;
+  color: rgba(253, 246, 227, 0.6);
+  margin: 0;
+  text-align: center;
+}
+
+/* ==================== TROIS CHEMINS ==================== */
+.chemins {
+  padding: 3rem 0;
+}
+
+.chemins__entete {
+  margin-bottom: 2.5rem;
+}
+
+.chemins__surtitre {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--or-fonce);
+  margin: 0 0 0.75rem;
+}
+
+.chemins__titre {
+  font-family: var(--font-titre);
+  font-size: 2.5rem;
+  color: var(--bleu-nuit);
+  margin: 0 0 0.75rem;
+  line-height: 1.15;
+}
+
+.chemins__description {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 40rem;
+  margin: 0;
+}
+
+.chemins__grille {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .chemins__grille {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.chemin {
+  display: block;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--noir);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-top: 4px solid var(--or);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.chemin:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.chemin__entete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.chemin__numero {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--or-fonce);
+  letter-spacing: 0.1em;
+}
+
+.chemin__icone {
+  font-size: 1.5rem;
+}
+
+.chemin__titre {
+  font-family: var(--font-titre);
+  font-size: 1.35rem;
+  color: var(--bleu-nuit);
+  margin: 0 0 0.75rem;
+}
+
+.chemin__texte {
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* ==================== RESSOURCES RÉCENTES ==================== */
+.recentes {
+  padding: 3rem 0;
+}
+
+.recentes__entete {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.recentes__surtitre {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--or-fonce);
+  margin: 0 0 0.5rem;
+}
+
+.recentes__titre {
+  font-family: var(--font-titre);
+  font-size: 2.5rem;
+  color: var(--bleu-nuit);
+  margin: 0 0 0.5rem;
+}
+
+.recentes__description {
+  font-size: 1.05rem;
+  color: #555;
+  margin: 0;
+}
+
+.recentes__lien {
+  color: var(--or-fonce);
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.recentes__lien:hover {
+  text-decoration: underline;
+}
+
+/* ==================== BANDEAU CONTRIBUTION ==================== */
+.bandeau-contribution {
+  background: var(--ocre);
+  color: var(--creme);
+  padding: 3rem 2rem;
+  margin: 3rem -2rem -2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .bandeau-contribution {
+    grid-template-columns: 3fr 2fr;
+    padding: 4rem;
+  }
+}
+
+.bandeau-contribution__surtitre {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--or);
+  margin: 0 0 1rem;
+}
+
+.bandeau-contribution__titre {
+  font-family: var(--font-titre);
+  font-size: 2.25rem;
+  color: var(--creme);
+  margin: 0;
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .bandeau-contribution__titre {
+    font-size: 1.5rem;
+  }
+}
+
+.bandeau-contribution__action {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bandeau-contribution__action p {
+  margin: 0;
+  color: rgba(253, 246, 227, 0.95);
+  line-height: 1.6;
+}

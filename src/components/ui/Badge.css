@@ -1,0 +1,25 @@
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge--default {
+  background: var(--creme);
+  color: var(--bleu-nuit);
+  border: 1px solid var(--bleu-nuit);
+}
+
+.badge--or {
+  background: var(--or);
+  color: var(--noir);
+}
+
+.badge--ocre {
+  background: var(--ocre);
+  color: var(--creme);
+}

@@ -1,0 +1,27 @@
+.section-title {
+  margin: 0 0 2rem;
+}
+
+.section-title__surtitre {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--or-fonce);
+  margin: 0 0 0.5rem;
+}
+
+.section-title__titre {
+  font-family: var(--font-titre);
+  font-size: 2rem;
+  margin: 0 0 0.75rem;
+  color: var(--bleu-nuit);
+  line-height: 1.2;
+}
+
+.section-title__description {
+  font-size: 1.05rem;
+  color: #444;
+  margin: 0;
+  max-width: 40rem;
+}

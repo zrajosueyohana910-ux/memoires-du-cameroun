@@ -1,0 +1,86 @@
+[
+  {
+    "id": "numeriser-archives",
+    "titre": "Numériser des archives papier",
+    "niveau": "débutant",
+    "etapes": [
+      "Choisir un scanner adapté (A4 ou A3 selon les documents)",
+      "Régler la résolution à 300 dpi minimum",
+      "Numériser en format PDF/A ou TIFF",
+      "Nommer les fichiers de manière cohérente",
+      "Stocker dans un dossier organisé avec métadonnées"
+    ],
+    "outils": ["Scanner", "VueScan", "Adobe Acrobat"],
+    "liens": [],
+    "sources": [
+      {
+        "titre": "Bibliothèque nationale de France — Numérisation",
+        "url": "https://www.bnf.fr/",
+        "consulte": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "contribuer-wikimedia",
+    "titre": "Contribuer à Wikimedia Commons",
+    "niveau": "débutant",
+    "etapes": [
+      "Créer un compte Wikimedia",
+      "Vérifier la licence de l'image à téléverser",
+      "Remplir la fiche descriptive (titre, description, date, auteur, licence)",
+      "Ajouter des catégories pertinentes",
+      "Publier et vérifier l'affichage"
+    ],
+    "outils": ["Wikimedia Commons", "Vicuna"],
+    "liens": [],
+    "sources": [
+      {
+        "titre": "Wikimedia Commons — Guide de contribution",
+        "url": "https://commons.wikimedia.org/",
+        "consulte": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "decrire-ressource",
+    "titre": "Décrire une ressource avec des métadonnées",
+    "niveau": "intermédiaire",
+    "etapes": [
+      "Identifier le type de ressource (image, texte, audio)",
+      "Choisir un standard de métadonnées (Dublin Core, EAD)",
+      "Renseigner les champs obligatoires (titre, créateur, date, droits)",
+      "Ajouter les champs facultatifs (sujet, description, source)",
+      "Documenter la provenance"
+    ],
+    "outils": ["Dublin Core", "Excel / LibreOffice"],
+    "liens": [],
+    "sources": [
+      {
+        "titre": "Dublin Core Metadata Initiative",
+        "url": "https://www.dublincore.org/",
+        "consulte": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "licences-creative-commons",
+    "titre": "Choisir une licence Creative Commons",
+    "niveau": "débutant",
+    "etapes": [
+      "Définir si l'œuvre peut être modifiée",
+      "Définir si l'usage commercial est autorisé",
+      "Choisir la licence adaptée (CC BY, CC BY-SA, CC BY-NC, etc.)",
+      "Apposer la mention de licence sur l'œuvre",
+      "Documenter la licence dans les métadonnées"
+    ],
+    "outils": ["Creative Commons License Chooser"],
+    "liens": [],
+    "sources": [
+      {
+        "titre": "Creative Commons — Choisir une licence",
+        "url": "https://creativecommons.org/choose/",
+        "consulte": "2026-10-13"
+      }
+    ]
+  }
+]

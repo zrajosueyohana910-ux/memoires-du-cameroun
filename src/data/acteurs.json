@@ -1,0 +1,34 @@
+[
+  {
+    "id": "inalco",
+    "nom": "INALCO",
+    "type": "institution",
+    "domaine": "Langues et civilisations",
+    "description": "Institut national des langues et civilisations orientales (Paris). Conserve le fonds Goggo Addi et mène des recherches sur les littératures orales africaines.",
+    "lien": "https://www.inalco.fr/"
+  },
+  {
+    "id": "cnrs",
+    "nom": "CNRS",
+    "type": "institution",
+    "domaine": "Recherche scientifique",
+    "description": "Centre national de la recherche scientifique (France). Partenaire de nombreux projets de numérisation et d'archivage du patrimoine africain.",
+    "lien": "https://www.cnrs.fr/"
+  },
+  {
+    "id": "minculture-cm",
+    "nom": "Ministère des Arts et de la Culture du Cameroun",
+    "type": "institution",
+    "domaine": "Politique culturelle",
+    "description": "Institution gouvernementale chargée de la préservation et de la promotion du patrimoine culturel camerounais.",
+    "lien": "https://www.minculture.gov.cm/"
+  },
+  {
+    "id": "wiki-ndzuh",
+    "nom": "Wiki N'zuñdeuh",
+    "type": "projet",
+    "domaine": "Patrimoine du Nord-Cameroun",
+    "description": "Projet collaboratif de documentation du patrimoine du Nord-Cameroun sur les plateformes Wikimedia. Initiative locale de valorisation culturelle.",
+    "lien": "https://meta.wikimedia.org/"
+  }
+]

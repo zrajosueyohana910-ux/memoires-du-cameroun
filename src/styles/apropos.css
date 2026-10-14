@@ -1,0 +1,108 @@
+.a-propos {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.a-propos__section {
+  margin-bottom: 3rem;
+}
+
+.a-propos__section h2 {
+  font-family: var(--font-titre);
+  font-size: 1.75rem;
+  color: var(--bleu-nuit);
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--or);
+}
+
+.a-propos__section p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #333;
+  margin: 0 0 1rem;
+}
+
+.a-propos__section strong {
+  color: var(--bleu-nuit);
+}
+
+.a-propos__section em {
+  color: var(--or-fonce);
+  font-style: italic;
+}
+
+.a-propos__liste,
+.a-propos__liste-num {
+  padding-left: 1.5rem;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #333;
+}
+
+.a-propos__liste li,
+.a-propos__liste-num li {
+  margin-bottom: 0.75rem;
+}
+
+.a-propos__equipe {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+@media (min-width: 640px) {
+  .a-propos__equipe {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.a-propos__membre {
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  border-top: 4px solid var(--or);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.a-propos__membre h3 {
+  font-family: var(--font-titre);
+  font-size: 1.2rem;
+  color: var(--bleu-nuit);
+  margin: 0 0 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+.a-propos__role {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0 0 0.5rem;
+}
+
+.a-propos__matricule {
+  font-size: 0.8rem;
+  color: var(--or-fonce);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.a-propos__institution {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+.a-propos__lien {
+  color: var(--or-fonce);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.a-propos__lien:hover {
+  text-decoration: underline;
+}
