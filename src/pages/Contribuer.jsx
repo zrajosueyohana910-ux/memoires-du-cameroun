@@ -1,6 +1,5 @@
 import SectionTitle from '../components/ui/SectionTitle'
 import ContributeForm from '../components/forms/ContributeForm'
-import ProductionNote from '../components/forms/ProductionNote'
 
 export default function Contribuer() {
   return (
@@ -17,10 +16,6 @@ export default function Contribuer() {
             Formulaire de proposition
           </h2>
           <ContributeForm />
-        </div>
-
-        <div className="contribuer-layout__aside">
-          <ProductionNote />
         </div>
       </div>
     </section>

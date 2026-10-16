@@ -106,3 +106,15 @@
 .a-propos__lien:hover {
   text-decoration: underline;
 }
+
+.a-propos__schema {
+  background: var(--bleu-nuit);
+  color: var(--creme);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}

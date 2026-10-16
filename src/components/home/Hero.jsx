@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom'
-import { countRegions } from '../../utils/filters'
-import patrimoine from '../../data/patrimoine.json'
+
+// Les 10 régions du Cameroun (référentiel national)
+const REGIONS_CAMEROUN = [
+  'Adamaoua', 'Centre', 'Est', 'Extrême-Nord', 'Littoral',
+  'Nord', 'Nord-Ouest', 'Ouest', 'Sud', 'Sud-Ouest'
+]
 
 export default function Hero() {
-  const regionsCount = countRegions(patrimoine)
-
   return (
     <section className="hero">
       <div className="hero__contenu">
@@ -13,8 +15,8 @@ export default function Hero() {
           Le Cameroun, <em>mémoire et innovation</em> à l'ère numérique
         </h1>
         <p className="hero__description">
-          Un espace ouvert pour explorer les patrimoines, découvrir les acteurs
-          et s'initier aux méthodes des humanités numériques.
+          Un espace ouvert pour explorer les patrimoines des 10 régions du Cameroun,
+          découvrir les acteurs et s'initier aux méthodes des humanités numériques.
         </p>
         <div className="hero__actions">
           <Link to="/patrimoine" className="btn btn--primary">
@@ -28,11 +30,11 @@ export default function Hero() {
 
       <div className="hero__aside">
         <div className="hero__badge">
-          <span className="hero__badge-titre">Archives</span>
-          <span className="hero__badge-sous">vivantes</span>
+          <span className="hero__badge-titre">Patrimoine</span>
+          <span className="hero__badge-sous">vivant</span>
         </div>
         <div className="hero__compteur">
-          <span className="hero__compteur-nombre">{regionsCount}</span>
+          <span className="hero__compteur-nombre">{REGIONS_CAMEROUN.length}</span>
           <span className="hero__compteur-label">régions à explorer</span>
         </div>
         <p className="hero__credit">

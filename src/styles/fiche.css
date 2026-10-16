@@ -115,3 +115,35 @@
     font-size: 1.75rem;
   }
 }
+
+/* Étapes numérotées */
+.fiche__etapes {
+  padding-left: 1.5rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.fiche__etapes li {
+  margin-bottom: 0.75rem;
+  padding-left: 0.5rem;
+}
+
+.fiche__etapes li::marker {
+  color: var(--or-fonce);
+  font-weight: 700;
+}
+
+/* Outils */
+.fiche__outils {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+.fiche__outils li {
+  display: inline-flex;
+}
